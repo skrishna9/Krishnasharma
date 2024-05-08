@@ -1,0 +1,43 @@
+/* FavoriteSpells.css */
+.favorite-spells {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .favorite-spells h2 {
+    margin-bottom: 10px;
+  }
+  
+  .favorite-spells ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .favorite-spells li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .favorite-spells li:last-child {
+    border-bottom: none;
+  }
+  
+  .favorite-spells button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .favorite-spells button:hover {
+    background-color: #d00;
+  }
+  

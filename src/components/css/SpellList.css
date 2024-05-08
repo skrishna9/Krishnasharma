@@ -1,0 +1,53 @@
+/* SpellList.css */
+.spell-list {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Good background color */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .spell-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  .spell-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .spell-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .spell-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .spell-list li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .spell-list li a:hover {
+    color: #f00;
+  }
+  
+  .spell-list button {
+    background-color: rgb(24, 81, 21);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .spell-list button:hover {
+    background-color: #d00;
+  }
+  
